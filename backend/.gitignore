@@ -1,0 +1,40 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directory
+/target/
+
+# IDEs
+*.iml
+.idea/
+*.ipr
+*.iws
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / Security
+*.env
+*.keystore
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs
+logs/
+*.log
