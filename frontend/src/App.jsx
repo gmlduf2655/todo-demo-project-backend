@@ -6,7 +6,6 @@ function App() {
   const [title, setTitle] = useState("");
 
   const fetchTodos = async () => {
-    console.log("test");
     const res = await axios.get("http://localhost:8080/api/todos");
     setTodos(res.data);
   };
